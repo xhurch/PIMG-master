@@ -392,6 +392,10 @@
 /*MENU ITEMS*/
   /*ALL CONTAINER*/
   /*ABOUT*/
+    .close-div{
+        position:fixed;
+    }
+
   .about{
       display: inline;
       font-family: Orator;
