@@ -460,7 +460,7 @@
       border: 1px solid purple;
       position: relative;
       right:-4.5em;
-      bottom: 20px;
+      bottom: -50px;
   }
 
 /*HIDDEN MOBILE FUNCTIONS*/
@@ -574,9 +574,9 @@
       height: 10%;
   }
     .a-enter-vr-button{
-      position: relative;
-      right: -26em;
-      bottom: -.75em;
+      position: absolute;
+      right: -30em;
+      bottom: -15px;
     }
 
     /*Remove prior settings*/
