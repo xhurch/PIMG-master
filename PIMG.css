@@ -1,0 +1,591 @@
+/*PIMG.css*/
+      @font-face {
+        font-family: Orator;
+        src: url(fonts/oratorStd.otf);
+      }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+      
+    body{
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	background:#000000;
+        text-shadow: 1px 1px #000;
+        }
+
+    p{
+          opacity:1;
+        }
+    button {
+	background-color: Transparent;
+   	border: none;
+    	color: black;
+    	padding: 0;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+	button:hover {
+    	background-color: Transparent;
+    	color: yellow;
+	}
+    li{
+       	color: white;
+       	border: 2px solid white;
+       	margin: 1em;
+       	padding: .5em;
+       	text-align: left;
+	      text-shadow: 1px 1px #000;
+	      box-shadow: 1px 1px #000;
+	      font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+       }
+    li.nbsp{
+	      border: none;
+       	color: white;
+       	margin: 1em;
+       	padding: .5em;
+       	text-align: left;
+	text-shadow: none;
+	box-shadow: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+       }
+    ul{
+	list-style: none;
+	   }
+
+    td {
+        display: inline-block; /*necessary*/
+        color: white;
+        margin: 1em;
+        padding: 1.5em;
+        text-align: center;
+        text-shadow: 1px 1px #000;
+        text-decoration: none;
+        align-content:center;
+      }
+    #table-group {
+        display: inline-block;
+        color: white;
+        margin: 2em;
+        text-align: center;
+        text-shadow: 1px 1px #000;
+        text-decoration: none;
+        align-content:center;
+      }
+
+    p{
+       	font-size: 1.2em;
+       	letter-spacing: 3px;
+       	color: white;
+       	text-decoration: none;
+       	text-shadow: 1px 1px #000;
+	font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+         }
+    a{
+       	font-size: 1.3em;
+       	letter-spacing: 3px;
+       	color: white;
+       	text-decoration: none;
+       	text-shadow: 1px 1px #000;
+	font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+       }
+    a:hover{
+	position:relative;
+       	font-size: 1.3em;
+       	color: yellow;
+        }
+    a.dave:hover:after {
+    	content: url(images/Dave_Animation.gif); /* no need for quotes */
+    	z-index: 37;
+	position: absolute;
+	display: block;
+    	left: -43px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+        }
+		a.matt:hover:after {
+    	content: url(images/Matt_Animation.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+                a.damon:hover:after {
+    	content: url(images/Damon.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+                a.seanna:hover:after {
+    	content: url(images/Seanna.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.michael:hover:after {
+    	content: url(images/Michael_Animation.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -39px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.michelle:hover:after {
+    	content: url(images/Michelle_Animation.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -37px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.scott:hover:after {
+    	content: url(images/Scott_Animation.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.sonya:hover:after {
+    	content: url(images/Sonya-128dithered.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+		width: 60%;
+}
+
+		a.stephanie:hover:after {
+    	content: url(images/Steph_Animation.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+
+		a.joel:hover:after {
+    	content: url(images/Joel_128NODITHER.gif); /* no need for quotes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+       
+	   	a.main{
+       	font-size: 1.2em;
+		    font-weight: 600;
+       	letter-spacing: 2.5px;
+       	color: white;
+       	text-decoration: none;
+       	text-shadow: 1px 1px #000;
+		    display: inline;
+       }
+	   	a.main:hover{
+       	font-size: 1.2em;
+       	color: yellow;
+		
+       }
+	   	a.menu{
+       	font-size: 1em;
+       	color: black;
+       	text-decoration: none;
+		    display: inline;
+		    letter-spacing: 0.05em;
+		    text-shadow: none;
+       }
+	   a.menu:hover{
+       	font-size: 1em;
+       	color: yellow;
+		    letter-spacing: 0.05em;
+       }
+
+/*TOP BAR*/	   
+      .main{
+        display: flex;
+        height: 100%;
+	    z-index: 2;
+		font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+        }
+      
+    	.sidebar{
+		    float: left;
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        overflow-x: hidden;
+		    font-family: Orator;
+		    width: 100%;
+        z-index: 2;
+
+        }
+    	.sidebar__wrap{
+        width: 100%;
+		    height: 75px;
+        position: relative;
+        /*overflow-y: auto;
+        padding: 3%;
+        /*border: 2px solid white;
+        background: #ff00ff;
+        opacity: 0.5;*/
+        left: 1%;
+        }
+     	.sidebar__wrap__inner{
+		    padding-top: 7px;
+       } 
+     	.top-menu{
+       	font-size: 1em;
+       	color: white;
+       	font-weight: 100;
+       	letter-spacing: 0.03em;
+       	text-align: center;
+       	z-index: 1.5;
+		    vertical-align: top;
+		    margin: auto;
+		    position:fixed;
+	
+       }
+	    .PIMG-title{
+       	font-size: 120%;
+		    left: 1%;
+		    margin: auto;
+        
+       }
+       	.menu__list{
+       	margin: .5%;
+       } 
+       	.page-title{
+       	font-size: 1em;
+       	color: white;
+       	font-weight: 100;
+       	letter-spacing: 0.02em;
+       	text-align: center;
+       	z-index: 1.5;
+       }
+       	.subnav{
+       	margin: .1em;
+       	list-style-type: none;
+       }
+
+/*VIDEO CSS*/	   
+	   	.fullscreen-bg {
+    	position: fixed;
+    	top: 0;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+    	overflow: hidden;
+		}
+
+		.fullscreen-bg__video {
+    	position: fixed;
+    	top: -42px;
+    	left: -130px;
+    	width: 120%;
+    	height: 120%;
+		z-index: -1;
+		}
+		
+		.fullscreen-bg__video_bubbles {
+    	position: fixed;
+    	top: -42px;
+    	left: -130px;
+    	width: 117%;
+    	height: 107%;
+		z-index: -1;
+		}
+
+		.fullscreen-bg__video_masks {
+    	position: fixed;
+    	top: -50px;
+    	left: -340px;
+    	width: 147%;
+    	height: 145%;
+		z-index: -1;
+		}
+		.fullscreen-bg__video_baptism {
+    	position: fixed;
+    	top: -87px;
+    	left: -400px;
+    	width: 155%;
+    	height: 150%;
+		z-index: -1;
+		}
+		.fullscreen-bg__video_roseroom {
+    	position: fixed;
+    	top: -87px;
+    	left: -375px;
+    	width: 150%;
+    	height: 150%;
+		z-index: -1;
+		}
+		.fullscreen-bg__video_maryvoid {
+    	position: fixed;
+    	top: -42px;
+    	left: -130px;
+    	width: 120%;
+    	height: 120%;
+		  z-index: -1;
+		}
+
+/*SIDE BAR --- might be obsolete! */
+		.section__container{
+			position:absolute;
+			max-width: 150px;
+			max-height: 100%;
+			z-index: 4;
+			top:23%;
+			left: 1.5%;
+			overflow-x: none; 
+			overflow-y: none;
+		}
+		.nav__container{
+			
+		}
+		.top-nav{
+			display: inline;
+			font-family: Orator;
+      src: url(fonts/oratorStd.otf);
+			text-decoration: none;
+			border: none;
+			color: black;
+			font-size: 1em;
+			letter-spacing: 0.25em;
+			text-shadow: none;
+			
+			
+		}
+		.nav-list{
+			display: inline;
+			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+			text-decoration: none;
+      text-align: left;
+			border: none;
+			box-shadow: none;
+			color: black;
+			font-size: 80%;
+      white-space: nowrap;
+			padding-top: 30px;
+			padding-left: -7px;
+		}
+	
+	#nums{
+		color: white;
+   	border: 2px solid white;
+   	margin: .8em;
+   	padding: .5em;
+		text-shadow: 1px 1px #000;
+  	box-shadow: 1px 1px #000;
+	}
+		
+/*MENU ITEMS*/
+  /*ALL CONTAINER*/
+  /*ABOUT*/
+  .about{
+      display: inline;
+      font-family: Orator;
+      src: url(fonts/oratorStd.otf);
+      text-decoration: none;
+      border: none;
+      box-shadow: none;
+      color: black;
+      font-size: .85em;
+      margin: auto;
+	  
+    }
+
+  .container{
+      display: none;
+      background: -webkit-linear-gradient(bottom,rgba(255,0,255,0),rgba(255,0,255,1)); 
+      opacity:0.55; 
+      margin:auto;
+      margin-top:10%; 
+      padding:60px; 
+      width:75%; 
+      height:75%;
+      position:relative;
+      z-index:2;
+      overflow-x: none; 
+      overflow-y:auto; 
+      text-align:justify; 
+      color:white; 
+      font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; 
+      font-size:0.85em;
+    }
+  /*GROUP*/		
+    #group-members {
+      height: 400px; /*your fixed height*/
+    
+    }
+
+
+  /*SOCIAL*/    
+  #social{
+       width: 25px;
+       height: 25px;
+       text-decoration: none;
+       position:absolute;
+       margin-top:0px;
+       margin-right:-100px;
+     }
+		
+  .div {
+      clear:both;
+      }
+
+/*VR CSS*/
+
+  /*ENTER VR BUTTON*/    
+  .a-enter-vr {
+      font-family: sans-serif,monospace;
+      font-size: 13px;
+      width: 100%;
+      font-weight: 200;
+      line-height: 16px;
+      height: 10%;
+      position: absolute;
+      left: 105em;
+      bottom: 20px;
+  }
+
+/*HIDDEN MOBILE FUNCTIONS*/
+
+  #orient{
+      display:none;
+  }
+  #navNav{
+    display:none;
+  }
+  #mobile-vids-master{
+    display:none;
+  }
+
+  /*DETECT SCREEN ORIENTATION*/			
+  @media screen and (orientation:portrait)
+  {
+     main
+     {
+        display:none;
+     }
+    .a-enter-vr
+     {
+        display:none;
+     }
+    #orient
+     {  
+        position: absolute;
+        z-index: 5;
+        width: 100vw;
+        height: 100vh;        
+        display:block;
+        background-color: #ccff33;
+     }
+  }
+
+
+@media all and (max-width: 768px)
+  {
+    aside{
+        display:none;   
+      }
+    
+    a{
+        display: block;
+        }
+
+    li{
+        border: none;
+        color: white;
+        background-color:none;
+        /*background-color: rgba(255,0,255,0.5);*/
+        margin-left: -1em;
+        padding-left: 1.3em;   
+        box-shadow:none;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+    #navNav{
+        display:block;
+        position: absolute;
+        z-index: 2;
+        }        
+
+    #mobile-title{  
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+        color: white;
+        white-space: pre;
+        margin-left: .2em;
+        margin-top: -9%;
+        font-size: 80%;
+        }
+
+/*    #mobile-nav{
+        float:left;
+        margin-bottom:15%;
+        }
+ 
+    #mobile-nav button{
+        padding: .5em; 
+    }
+*/    
+    #mobile-vids-master{
+        display: block;
+    }
+    #mobile-vids{
+        background-color: red;
+    }
+    #vidgroup
+    {
+        position: absolute;
+        bottom: 0px;
+        z-index: 2;
+    }
+    #mobile-vids a{
+        display: block;
+        bottom: 8px;
+        border: 2px solid white;
+        margin: 5%;
+        padding-top: 5%;
+        padding-right: 36%;
+        padding-left: 11%;
+    }
+
+    .a-enter-vr {
+      width: 100%;
+      height: 10%;
+      position: absolute;
+      left: 45em;
+      bottom: 20px;
+  }
+
+    /*Remove prior settings*/
+       #PIMGTitle{
+         display:none;
+      }
+       #socialIcons{
+        display:none;
+       }
+       #navMain{
+        display: none;
+       }
+      #number-nav{
+        display:none;
+      } 
+  }
+
+
