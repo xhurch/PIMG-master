@@ -457,7 +457,6 @@
   }
 
   .a-enter-vr-button{
-      border: 1px solid purple;
       position: relative;
       right:-4.5em;
       bottom: -50px;
@@ -506,6 +505,7 @@
     
     a{
         display: block;
+        color: white;
         }
 
     li{
@@ -542,11 +542,11 @@
         float:left;
         margin-bottom:15%;
         }
+*/    
  
     #mobile-nav button{
-        padding: .5em; 
+        padding: .2em; 
     }
-*/    
     #mobile-vids-master{
         display: block;
     }
@@ -562,11 +562,12 @@
     #mobile-vids a{
         display: block;
         bottom: 8px;
-        border: 2px solid white;
+        border: 1px solid white;
         margin: 5%;
         padding-top: 5%;
         padding-right: 36%;
         padding-left: 11%;
+        color: white;
     }
 
     .a-enter-vr {
